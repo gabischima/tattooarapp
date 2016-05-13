@@ -15,3 +15,6 @@ function gestureStart() {
     }
   }
 }
+
+// the next line is required to work around a bug in WebKit (Chrome / Safari)
+location.href = "#";
