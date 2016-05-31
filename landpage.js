@@ -48,10 +48,10 @@ $(document).ready(function(){
     });
 
     $(".carousel-inner").swiperight(function() {
-       $("#carousel-example").carousel('prev');
+       $(this).parent().carousel('prev');
      });
     $(".carousel-inner").swipeleft(function() {
-       $("#carousel-example").carousel('next');
+       $(this).parent().carousel('next');
     });
 });
 
