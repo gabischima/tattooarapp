@@ -47,10 +47,10 @@ $(document).ready(function(){
       }
     });
 
-    $("#carousel-example").swiperight(function() {
+    $(".carousel-inner").swiperight(function() {
        $("#carousel-example").carousel('prev');
      });
-    $("#carousel-example").swipeleft(function() {
+    $(".carousel-inner").swipeleft(function() {
        $("#carousel-example").carousel('next');
     });
 });
