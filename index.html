@@ -8,6 +8,18 @@
         <script src="landpage.js"></script>
         <script src=”jquery.mobile.custom.min.js”></script>
         <title>TattooAR</title>
+
+        <script>
+$(document).ready(function() {
+   $("#myCarousel").swiperight(function() {
+      $("#myCarousel").carousel('prev');
+    });
+   $("#myCarousel").swipeleft(function() {
+      $("#myCarousel").carousel('next');
+   });
+});
+</script>
+
     </head><body>
         <div class="navbar navbar-default navbar-fixed-top">
             <div class="container">

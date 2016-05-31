@@ -46,17 +46,6 @@ $(document).ready(function(){
         }
       }
     });
-    
-  if ( $(div).attr('id') == 'carousel-example' ) {
-   $("#carousel-example").swiperight(function() {  
-      $("#carousel-example").carousel('prev');  
-    });  
-
-   $("#carousel-example").swipeleft(function() {  
-      $("#carousel-example").carousel('next');  
-   });  
-  }
-
 });
 
 location.href = "#";
